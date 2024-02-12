@@ -1,0 +1,51 @@
+.poke-header {
+    display: flex;
+    align-items: center;
+    gap: 30%;
+    padding: 5px;
+}
+
+.poke-header p {
+    padding-left: 7%;
+}
+
+.poke-header .types {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.poke-img img {
+    width: 80%;
+}
+
+.poke-img {
+    align-items: center;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background: #ffffff4d;
+    border-radius: 50%;
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    width: 150px;
+    align-items: center;
+}
+
+.poke-infos {
+    display: flex;
+    width: 100%;
+    gap: 30px;
+
+}
+
+.poke-infos .poke-stats{
+    width: 60%;
+}
+
+.poke-infos .poke-stats .stats .value{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
